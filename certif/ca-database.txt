@@ -1,0 +1,1 @@
+R	230303165428Z	200607170114Z	5E36C5D1CFF6131BA18FA7F1CCF431682BB0FF29	unknown	/C=US/ST=MA/L=Boston/O=Example Co/OU=techops/CN=client2/emailAddress=certs@example.com
