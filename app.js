@@ -13,7 +13,6 @@ dotenv.config();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json())
 
-
 var routes = require('./routes/route');
 app.use(routes);
 

@@ -1,8 +1,9 @@
 var express = require('express'),
-    Router = express.Router();
+    Router = express.Router(),
+    {fillDB} = require('../controllers/controller');
 
 Router.post('/', function(req,res){
-    console.log(req.body);
+    fillDB(req.body);
     res.sendStatus(200)
 })
 
