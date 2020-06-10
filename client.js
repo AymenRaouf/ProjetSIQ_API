@@ -2,7 +2,8 @@ var fs = require('fs');
 var https = require('https'); 
 
 var body = JSON.stringify({
-    vitesse : 50,
+    vitesse_max : 100,
+    vitesse_moyenne : 50,
     distance : 150,
     carburant : 20,
     matricule: "06568 115 05"

@@ -5,11 +5,14 @@ module.exports = (sequelize, type) => {
             primaryKey: true,
             autoIncrement: true
         },
-        vitesse: {
-            type: type.INTEGER
+        vitesse_max: {
+            type: type.FLOAT
+        },
+        vitesse_moyenne: {
+            type: type.FLOAT
         },
         distance: {
-            type: type.INTEGER
+            type: type.FLOAT
         },
         carburant: {
             type: type.FLOAT

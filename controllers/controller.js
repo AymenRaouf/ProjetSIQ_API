@@ -11,7 +11,8 @@ var {
 var fillDB = (data) => {
     return new Promise(resolve=>{
         var donnees = {
-                vitesse : data.vitesse,
+                vitesse_max : data.vitesse_max,
+                vitesse_moyenne : data.vitesse_moyenne,
                 distance : data.distance,
                 carburant : data.carburant
         },

@@ -59,7 +59,7 @@ Voiture.belongsTo(Parking);
 
 
 sequelize
-    .sync({})
+    .sync({alter: true})
     .then(() => {
             console.log(`Database & tables created!`);
             require('../misc/first_use')();
